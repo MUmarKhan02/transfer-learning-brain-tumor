@@ -31,20 +31,20 @@ Both models exceed **95% validation accuracy** with full fine-tuning and maintai
 This project uses the [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset) from Kaggle containing approximately 7,000 MRI brain scans across four diagnostic classes.
 
 Once downloaded, extract to the following structure:
-
-data
-   brain_tumor/
-   Training/
-       glioma/
-       meningioma/
-       notumor/
-       pituitary/
-   Testing/
-       glioma/
-       meningioma/
-       notumor/
-       pituitary/
-
+```
+data/
+└── brain_tumor/
+├── Training/
+│   ├── glioma/
+│   ├── meningioma/
+│   ├── notumor/
+│   └── pituitary/
+└── Testing/
+├── glioma/
+├── meningioma/
+├── notumor/
+└── pituitary/
+```
 ## Installation
 
 **1. Install dependencies:**
@@ -82,7 +82,7 @@ python plot_brain.py
 Results are saved to `results_brain/brain_results.csv` and plots to `results_brain/plots/`.
 
 ## Project Structure
-
+```
 ├── config_brain.py        # Hyperparameters and experiment settings
 ├── data_brain.py          # Dataset loading and preprocessing
 ├── model_brain.py         # Model loading and layer freezing logic
@@ -92,7 +92,7 @@ Results are saved to `results_brain/brain_results.csv` and plots to `results_bra
 └── results_brain/
 ├── brain_results.csv  # All experiment results
 └── plots/             # Generated figures
-
+```
 ## Key Findings
 
 - Full fine-tuning (0% frozen) achieves highest accuracy but partial fine-tuning (25–50% frozen) offers the best accuracy-efficiency tradeoff
