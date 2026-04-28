@@ -32,7 +32,7 @@ This project uses the [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/
 
 Once downloaded, extract to the following structure:
 
-data/
+data
    brain_tumor/
    Training/
        glioma/
