@@ -33,17 +33,17 @@ This project uses the [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/
 Once downloaded, extract to the following structure:
 
 data/
-└── brain_tumor/
-├── Training/
-│   ├── glioma/
-│   ├── meningioma/
-│   ├── notumor/
-│   └── pituitary/
-└── Testing/
-├── glioma/
-├── meningioma/
-├── notumor/
-└── pituitary/
+   brain_tumor/
+   Training/
+       glioma/
+       meningioma/
+       notumor/
+       pituitary/
+   Testing/
+       glioma/
+       meningioma/
+       notumor/
+       pituitary/
 
 ## Installation
 
